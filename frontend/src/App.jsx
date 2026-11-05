@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./TodoApp.css";
 
-const API_URL = "https://releasing-workshop-u1hx.onrender.com"; // zmień na swój adres API
+const API_URL = "https://releasing-workshop-u1hx.onrender.com";
 
 function App() {
   const [todos, setTodos] = useState([]);
